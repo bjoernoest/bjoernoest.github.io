@@ -14,21 +14,7 @@ A simple personal academic and professional website optimized for:
 - `robots.txt`: Search engine crawling settings
 - `sitemap.xml`: Sitemap for search engines
 - `assets/profile.jpg`: Replace with your photo
-- `assets/cv.pdf`: Replace with your CV
 - `CNAME`: Optional custom domain file
-
-## Replace these placeholders
-
-Search across all files and replace:
-
-- `YOUR_GITHUB_USERNAME`
-- `YOUR_LINKEDIN_PROFILE`
-- `YOUR_GOOGLE_SCHOLAR_ID`
-- `YOUR_ORCID_ID`
-- `YOUR_YOUTUBE_CHANNEL`
-- `YOUR_EMAIL@example.com`
-- `ARTICLE_LINK_1`, `ARTICLE_LINK_2`, `ARTICLE_LINK_3`
-- `YOUTUBE_LINK_1`, `YOUTUBE_LINK_2`
 
 ## GitHub Pages setup
 
@@ -40,10 +26,6 @@ Search across all files and replace:
 
 ## Custom domain
 
-If you use a custom domain, replace the contents of `CNAME` with the domain, for example:
-
-```txt
-bjoernoesthansen.com
-```
-
-Then also update the canonical URL, Open Graph URL, Schema.org URL, robots.txt and sitemap.xml.
+The site is served from the custom domain `bjoernoest.dk` (configured via `CNAME`). The canonical URL,
+Open Graph tags, Schema.org URL, `robots.txt` and `sitemap.xml` all point to this domain. If the domain
+ever changes, update all of those in one pass.

@@ -253,7 +253,8 @@ h3 {
 .card,
 .list-item,
 .contact-card,
-.name-box {
+.name-box,
+.timeline-item {
   background: rgba(255, 255, 255, 0.86);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -289,6 +290,40 @@ h3 {
 .text-link {
   font-weight: 800;
   white-space: nowrap;
+}
+
+.timeline-head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.timeline-item .meta {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.timeline-item > p {
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+
+.timeline-item ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  display: grid;
+  gap: 6px;
+}
+
+.timeline-earlier p {
+  margin: 0 0 8px;
+}
+
+.timeline-earlier p:last-child {
+  margin-bottom: 0;
 }
 
 .name-box {
