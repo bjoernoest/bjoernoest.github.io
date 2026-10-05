@@ -1,11 +1,10 @@
-# Björn Oest Hansen GitHub Pages site
+# Bjoern Oest Hansen GitHub Pages site
 
-A simple personal academic and professional website optimized for:
+Personal professional website for Bjoern Oest Hansen, served at https://bjoernoest.dk via GitHub Pages.
 
-- GitHub Pages
-- Schema.org Person structured data
-- Search disambiguation for Björn Oest Hansen, Bjoern Oest Hansen and Bjorn Oest Hansen
-- Links to LinkedIn, Google Scholar, ORCID, GitHub, YouTube, articles and talks
+- Static HTML and CSS, no build step and no external requests (system fonts only)
+- Schema.org Person structured data, including name spelling variants
+- Light and dark mode
 
 ## Files
 
@@ -13,16 +12,9 @@ A simple personal academic and professional website optimized for:
 - `style.css`: Styling
 - `robots.txt`: Search engine crawling settings
 - `sitemap.xml`: Sitemap for search engines
-- `assets/profile.jpg`: Replace with your photo
-- `CNAME`: Optional custom domain file
-
-## GitHub Pages setup
-
-1. Create a GitHub repository named `YOUR_GITHUB_USERNAME.github.io`.
-2. Upload the files from this folder to the repository root.
-3. In GitHub, go to Settings, then Pages.
-4. Select Deploy from branch, choose the main branch and root folder.
-5. Replace the placeholder URLs once your site is live.
+- `assets/og-image.png`: 1200×630 social link preview image
+- `assets/favicon.svg`, `assets/favicon.png`: Site icon
+- `CNAME`: Custom domain
 
 ## Custom domain
 
